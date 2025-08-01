@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/comdaumvuePr/sw.js', { scope: '/comdaumvuePr/' })})}
